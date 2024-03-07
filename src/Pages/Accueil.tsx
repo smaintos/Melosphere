@@ -1,8 +1,8 @@
 
 export const Accueil = () => {
   return (
-    <div>
+    <main>
       <h1>Accueil</h1>
-    </div>
+    </main>
   );
 }
