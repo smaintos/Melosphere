@@ -9,11 +9,9 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <nav>
-        <NavLink to="/">Accueil</NavLink><br></br>
-        <NavLink to="/inscription">Inscription</NavLink>
-      </nav>
+    <div> 
+      <header>
+      </header>
       <Routes>
         <Route path="/" element={<Accueil />} />
         <Route path="/inscription" element={<Inscription />} />

@@ -1,10 +1,10 @@
-import { BoutonTest } from "../Composants/BoutonTest";
+
 
 export const Inscription = () => {
     return (
         <main>
-        <h1>Inscription</h1>
-        <BoutonTest/>
+        <h1 className='text-base'>Inscription</h1>
+
         </main>
     );
 }

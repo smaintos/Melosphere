@@ -2,7 +2,7 @@
 export const Accueil = () => {
   return (
     <main>
-      <h1>Accueil</h1>
+      <h1 className='text-base'>Melosphere</h1>
     </main>
   );
 }
